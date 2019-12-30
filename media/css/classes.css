@@ -1,0 +1,115 @@
+/*other*/
+
+.title-line{
+	position: relative;
+}
+
+.title-line--div{
+	position: relative;
+}
+
+.title-line:after{
+	content: "";
+
+	width: 65px;
+	height: 2px;
+	background: #ff8b38;
+
+	position: absolute;
+	bottom: -30px;
+	left: 0;
+}
+
+.title-line--div:after{
+	content: "";
+
+	width: 65px;
+	height: 2px;
+	background: #ff8b38;
+
+	position: absolute;
+	bottom: -30px;
+	left: calc(50% - 65px/2);
+}
+
+
+/*button*/
+
+.btn-empty{
+	width: 135px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background: none;
+	border: 2px solid #fff;
+
+	color: #fff;
+	font-family: "Open Sans",sans-sefir;
+	font-weight: 600;
+	font-size: 15px;
+	text-decoration: none;
+	
+	transition: all .2s;
+}
+
+
+.btn-empty:hover{
+	background: #fff;
+	color: #333;
+}
+
+.btn-orange{
+	width: 120px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 5px;
+	background: #ff8b38;
+	border: none;
+
+	color: #fff;
+	font-family: "Open Sans",sans-sefir;
+	font-weight: 600;
+	font-size: 15px;
+	text-decoration: none;
+
+	transition: all .2s;
+}
+
+.btn-orange:hover{
+	background: #ff4b38;
+}
+
+/*font*/
+
+.opensans-r{
+	color: #86878b;
+	font-family: "Open Sans",sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.opensans-b{
+	color: #000;
+	font-family: "Open Sans",sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.title-div{
+	text-align: center;
+
+	color: #212121;
+	font-family: "Raleway",sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	text-transform: uppercase;
+
+}
+
